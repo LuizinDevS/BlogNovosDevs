@@ -19,14 +19,19 @@ function acordeonComponent(idContainer, acordeons) {
         containerConteudo.id = index;
         containerConteudo.classList.add('acordeon', 'acordeonFechado');
 
-        wrapper.addEventListener('click', () => controlaAcordeon(index));
-
         let conteudo = document.createElement('p');
         conteudo.innerHTML = acordeon.conteudo;
 
-        wrapper.appendChild(titulo);
-        containerConteudo.appendChild(conteudo);
+        let link = document.createElement('a');
+        link.href = acordeon.link;
+        link.innerHTML = '<br>Link para mais informações';
+        link.target = '_blank';
 
+        containerConteudo.appendChild(conteudo);
+        containerConteudo.appendChild(link);
+
+        wrapper.addEventListener('click', () => controlaAcordeon(index));
+        wrapper.appendChild(titulo);
         wrapper.appendChild(containerConteudo);
 
         container.appendChild(wrapper);

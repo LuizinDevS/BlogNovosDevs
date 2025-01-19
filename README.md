@@ -8,6 +8,8 @@
 
 Este blog visa auxiliar os novos estudantes da área de tecnologia, principalmente de programação, disponiblizando um roteiro de estudos para iniciantes, dicas e links que serãi úteis durante o aprendizado. 
 
+# Url do projeto: https://blog-novos-devs.vercel.app/
+
 ## 💻 Tecnologias
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript)

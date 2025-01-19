@@ -5,7 +5,7 @@ function glossarioComponent(idContainer, termos) {
         let wrapper = document.createElement('div');
         let conteudo = document.createElement('li');
 
-        conteudo.innerText = termo.termo + ': ' + termo.definicao;
+        conteudo.innerHTML = '<strong>' + termo.termo + '</strong>: ' + termo.definicao;
 
         wrapper.appendChild(conteudo);
 

@@ -47,18 +47,9 @@ const acordeons = [
         
         Os principais operadores da lógica booleana são:
                         
-        <li>
-            AND (E): Retorna verdadeiro somente se todas as condições forem verdadeiras.
-            Exemplo: true AND true = true
-        </li>
-        <li>
-            OR (OU): Retorna verdadeiro se pelo menos uma condição for verdadeira.
-            Exemplo: true OR false = true
-        </li>
-        <li>
-            NOT (NÃO): Inverte o valor lógico.
-            Exemplo: NOT true = false
-        </li>`,
+        <li>AND (E): Retorna verdadeiro somente se todas as condições forem verdadeiras. Exemplo: true AND true = true</li>
+        <li>OR (OU): Retorna verdadeiro se pelo menos uma condição for verdadeira. Exemplo: true OR false = true </li>
+        <li>NOT (NÃO): Inverte o valor lógico. Exemplo: NOT true = false</li>`,
         link: 'https://dev.to/linivecristine/logica-booleana-e-operadores-logicos-269a'
     },
     {
@@ -96,7 +87,7 @@ const acordeons = [
         <li>Definir uma função: function saudacao(nome) { return "Olá, " + nome; }</li>
         <li>Chamar uma função: saudacao("Maria");</li>
         Funções ajudam a modularizar o código e evitar repetições.`,
-        link: 'https://www.freecodecamp.org/news/funcoes-em-javascript/'
+        link: 'https://learn.microsoft.com/pt-br/cpp/cpp/functions-cpp?view=msvc-170'
     },
     {
         titulo: '6- Programação Orientada a Objetos (POO)',
@@ -107,7 +98,7 @@ const acordeons = [
         <li>Herança: Reutilização de código entre classes.</li>
         <li>Encapsulamento: Ocultar detalhes internos.</li>
         <li>Polimorfismo: Capacidade de um método se comportar de maneiras diferentes.</li>`,
-        link: 'https://www.alura.com.br/artigos/o-que-e-programacao-orientada-a-objetos'
+        link: 'https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos'
     },
     {
         titulo: '7- Versionamento de Código (Git e GitHub)',
@@ -136,7 +127,7 @@ const acordeons = [
         <li>Back-end: Desenvolvimento da lógica e banco de dados do servidor (Node.js, Python, Java).</li>
         <li>Fullstack: Combinação de front-end e back-end.</li>
         <li>Mobile: Aplicativos para dispositivos móveis (React Native, Flutter).</li>`,
-        link: 'https://blog.geekhunter.com.br/front-end-back-end-full-stack/'
+        link: 'https://www.alura.com.br/artigos/o-que-e-front-end-e-back-end'
     }
 ];
 
